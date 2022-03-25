@@ -1,12 +1,14 @@
 const express = require("express");
-//imporort handlebar
+//import handlebar
 const hbs = require("express-handlebars");
 const restaurantsRouter = require("./routes/restaurants");
 const app = express();
 //Import middleware
 const logger = require("./middleware/logger");
 //Setup Template engines
-app.engine();
+
+app.set("view engine", "hbs");
+app.engine("html", require("hbs").__express);
 
 //Middleware
 app.use(express.json());
@@ -16,8 +18,9 @@ app.use(logger);
 // Routes
 app.use("/apis/restaurants", restaurantsRouter);
 
+// Render
 app.get("/", (req, res) => {
-  res.send("<h1>Hello Express</h1>");
+  res.render("index");
 });
 
 app.listen(3000, () => {
