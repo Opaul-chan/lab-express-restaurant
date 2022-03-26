@@ -16,19 +16,20 @@ const data = [
   {
     id: 3,
     name: "Chester's (เชสเตอร์) - ศิริราชปิยมหาราชการุณย์",
-    imageURL: "",
-    type: "",
+    imageURL:
+      "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/3-CYV2JJAETVLADA/hero/b94f3e20c0284b51bf46da4296c840d8_1647187456302794504.jpg",
+    type: "Coupon, ข้าวหน้า, ปิ้งย่าง/บาร์บีคิว, ฟาสต์ฟู้ด",
   },
   {
     id: 4,
-    name: "น้ำสมุนไพรไทย สำหรับคนขยัน - อิสรภาพ",
+    name: "Makai Acai & Superfood Bar (มาคาอิ อาซาอิ แอนด์ ซุปเปอร์ฟู๊ด บาร์) - อารีย์",
     imageURL:
-      "https://food.grab.com/th/th/restaurant/%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%99%E0%B9%84%E0%B8%9E%E0%B8%A3%E0%B9%84%E0%B8%97%E0%B8%A2-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%99%E0%B8%82%E0%B8%A2%E0%B8%B1%E0%B8%99-%E0%B8%AD%E0%B8%B4%E0%B8%AA%E0%B8%A3%E0%B8%A0%E0%B8%B2%E0%B8%9E-delivery/3-C26ECFVWUECGR2",
+      "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/THGFIST0000095v/hero/331d39232a4744bd97bb760d3ac51802_1606659036684171641.jpeg",
     type: "Coupon, น้ำผลไม้/สมูทตี้",
   },
   {
     id: 5,
-    name: "ก99 โภชนา (Gor99 Phochana) - ราชเทวี",
+    name: "โภชนา (Gor99 Phochana) - ราชเทวี",
     imageURL:
       "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/3-C2WCGYWGCP5XJT/hero/1eb5caae88bb44f1a11b50283622238b_1641316612601209795.jpeg",
     type: "Coupon, เนื้อ/สเต็ก, ข้าวหน้า, อาหารเส้น",
