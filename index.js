@@ -1,6 +1,6 @@
 const express = require("express");
 const { engine } = require("express-handlebars");
-
+const path = require("path");
 //import handlebar
 
 const restaurantsRouter = require("./routes/restaurants");
@@ -21,7 +21,7 @@ app.set("view engine", "hbs");
 //help read req.body
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-
+app.use(express.static(path.join(__dirname, "public")));
 //Custom middleware
 app.use(logger);
 
