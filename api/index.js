@@ -2,16 +2,15 @@ const express = require("express");
 const { engine } = require("express-handlebars");
 const path = require("path");
 //import handlebar
-
-const restaurantsRouter = require("./routes/restaurants");
+const restaurantsRouter = require("../routes/restaurants");
 
 //import index.js in routes folder
-const indexRouter = require("./routes/index");
+const indexRouter = require("../routes/index");
 
 const app = express();
 
 //Import middleware
-const logger = require("./middleware/logger");
+const logger = require("../middleware/logger");
 
 //Setup Template engines
 app.engine("hbs", engine({ extname: "hbs" }));
